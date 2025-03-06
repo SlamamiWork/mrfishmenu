@@ -1,0 +1,139 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the logo in the header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Flex container for the divs */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Full-width section */
+.full-width {
+    width: 100%;
+    padding: 20px 40px; /* Increased left and right padding */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.full-width h2 {
+    text-align: center;
+    margin-bottom: -15px; /* Adjusted margin for subtitle */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.full-width .subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* Steps layout */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.step {
+    background-color: #fff;
+    padding: 20px;
+    border: 2.5px solid black; /* Thicker and darker border */
+    border-radius: 10px; /* Increased border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.step-40 {
+    flex: 40%; /* 40% width for Step 1 */
+}
+
+.step-30 {
+    flex: 30%; /* 30% width for Steps 2 and 3 */
+}
+
+.step h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 800; /* Bolder title */
+    color: #000;
+}
+
+.step hr {
+    border: 0;
+    height: 2px; /* Thicker and darker horizontal rule */
+    background: black;
+    margin-bottom: 15px;
+}
+
+.step .short-rule {
+    width: 50%; /* Shorter horizontal rule */
+    margin: 10px auto; /* Center the shorter rule */
+    height: 1px; /* Thicker and darker */
+    background: black;
+}
+
+.step p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+}
+
+.step .pricing {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.step h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Cooking Styles Section */
+.cooking-styles p {
+    margin: 10px 0; /* Spacing between cooking styles */
+    font-size: 16px;
+    color: #000;
+}
+
+/* Half-width sections */
+.half-width {
+    width: 50%;
+    height: 150px;
+    background-color: #00ccff;
+    margin-bottom: 20px;
+}
+
+/* Optional: Add some padding and border for better visibility */
+.half-width {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
